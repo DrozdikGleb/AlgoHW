@@ -6,8 +6,13 @@ authors = ["Drozdov Gleb <drozdov.gleb.spb@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+matplotlib = "^3.3.2"
+tqdm = "^4.49.0"
+scipy = "^1.5.2"
 
 [tool.poetry.dev-dependencies]
+jupyter = "^1.0"
+jupyterlab = "^2.2.8"
 
 [build-system]
 requires = ["poetry-core>=1.0.0a5"]
