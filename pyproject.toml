@@ -6,6 +6,7 @@ authors = ["Drozdov Gleb <drozdov.gleb.spb@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+networkx = "^2.5"
 matplotlib = "^3.3.2"
 tqdm = "^4.49.0"
 scipy = "^1.5.2"
